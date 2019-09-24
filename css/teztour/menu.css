@@ -1,0 +1,167 @@
+/* Меню синего цвета */
+:root {
+
+	--color-blue: #005BBF;
+	--color-dark-blue: #00499a;
+
+}
+.navbar.new-menu {
+
+	background-color: var(--color-blue);
+	color: #fff !important;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.navbar.new-menu .navbar-toggler {
+
+	color: #fff !important;
+}
+
+.new-menu .navbar-nav {
+
+	width: 100%;
+}
+
+.new-menu .nav-item {
+
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+.new-menu .nav-item:hover, .new-menu .nav-item.active, .new-menu .nav-item.active > .nav-link {
+
+	background-color: var(--color-dark-blue) !important;
+}
+
+.new-menu .nav-item .nav-link:hover {
+
+	color: #fff !important;
+}
+
+.new-menu .nav-item .nav-link:focus {
+
+	outline: none;
+}
+
+.new-menu .dropdown-menu {
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 10rem !important;
+	padding: .5rem 0;
+	margin: 0;
+	font-size: 1rem;
+	color: #fff;
+	text-align: left;
+	list-style: none;
+	background-color: var(--color-dark-blue);
+	background-clip: padding-box;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-radius: 0;
+	text-transform: none;
+	column-fill: balance;
+}
+
+.nav-item .right-align {
+
+	right: 0;
+	left: auto !important;
+}
+
+.new-menu .dropdown-menu p {
+
+	column-span: all;
+	font-size: 0.9rem;
+}
+
+.new-menu .dropdown-menu > img {
+
+	column-span: all;
+	width: 100%;
+	display: block;
+}
+
+
+.new-menu .dropdown-menu .dropdown-header {
+
+	padding-left: 10px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+.new-menu .dropdown-menu .dropdown-item {
+
+	color: #fff;
+	page-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	break-inside: avoid;
+	-webkit-column-break-inside: avoid;
+}
+
+.new-menu .dropdown-menu .dropdown-item:hover, .dropdown-item.active {
+
+	background-color: hsla(0,0%,100%,.3);
+
+}
+
+
+
+/* Строгая последовательность */
+
+/* xl-размер (>=1200px) */
+/* CSS для >=1200px */
+ 
+/* lg-размер (<=1199px) */
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
+ 
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+ 
+/* sm-размер (<=768px) */
+@media (max-width: 767px) { 
+  /* CSS для ширины от 576px до 767px */
+}
+ 
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+}
+
+/* Любая последовательность */
+
+/* xs (<=543px) */
+@media (max-width: 575px) {
+
+}
+ 
+/* sm (>=576 и <=767) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+ 
+/* md (>=768 и <=991) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+ 
+/* lg (>=992 и <=1199) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+ 
+/* xl (>=1200) */
+@media (min-width: 1200px) {
+
+}
