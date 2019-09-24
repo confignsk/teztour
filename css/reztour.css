@@ -1,0 +1,76 @@
+
+
+/* Links */
+
+.main-resorts a {
+	color: var(--navyBlue-tez);
+}
+
+.main-resorts a:hover {
+	text-decoration: none;
+	color: var(--deep-red);
+}
+
+
+/* Помощь в подборе тура */
+
+.main-resorts .main-resorts_help {
+	background-color: #e0f4ff !important;
+	border-bottom: 2px solid var(--navyBlue-tez);
+}
+
+.main-resorts_help h2 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.main-resorts .main-resorts_help .btn-warning{
+	color: #fff;
+	background-color: #ff9900 !important;
+	border: 0;
+}
+
+
+/* Sidebar */
+
+.sidebar .list-group-item {
+	border: 1px solid var(--navyBlue-tez);
+}
+
+.sidebar .list-group-item.active {
+	background-color: var(--navyBlue-tez);
+	border-color: var(--suva-tez-grey);
+	color: #fff;
+}
+.sidebar .list-group-item:hover {
+	background-color: var(--navyBlue-tez);
+	border-color: var(--suva-tez-grey);
+	color: #fff;
+}
+
+
+
+
+/* Более бледный цвет сайдбара */
+
+/*.sidebar .list-group-item {
+	border: 1px solid #1cbbee;
+}
+.sidebar .list-group-item.active {
+	background-color: #4faddc;
+	border-color: #1cbbee;
+	color: #fff;
+}
+.sidebar .list-group-item:hover {
+	background-color: #4faddc;
+	border-color: #1cbbee;
+	color: #fff;
+}*/
+
+
+
+.sidebar .wiget {
+	border: 1px solid var(--navyBlue-tez);
+	padding: 15px;
+}
